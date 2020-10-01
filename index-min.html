@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!-- You should properly set the path from the main file. -->
+
+    <style>
+
+
+        ::selection {
+            background: #e0e0e0; /* WebKit/Blink Browsers */
+        }
+
+        .serif {
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .sansserif {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .monospace {
+            font-family: "Lucida Console", Courier, monospace;
+        }
+
+        .italic {
+            font-style: italic !important;
+        }
+
+        hr {
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 3px solid rgba(0, 0, 0, 0.5);
+        }
+
+        .gray {
+            color: rgba(0, 0, 0, 0.3)
+        }
+
+        .warm {
+            color: #927655;
+        }
+
+        .col-bottom {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: flex-end;
+            text-align: right;
+        }
+
+        .text-caption {
+            line-height: 1.28em;
+            letter-spacing: normal;
+            font-family: TNYAdobeCaslonPro, Times New Roman, Times, serif;
+            font-size: 21px;
+            font-weight: 400;
+            font-style: italic;
+            text-transform: none;
+            margin-top: 25px;
+        }
+
+        .caption_credit {
+            line-height: 1.3em;
+            letter-spacing: normal;
+            font-family: Graphik, Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 19px;
+            font-weight: 500;
+            font-style: normal;
+            text-transform: none;
+            padding-top: .5rem;
+            text-align: left;
+            color: #666666;
+        }
+
+        .body {
+            margin: 0 auto;
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;
+            max-width: 1600px;
+            line-height: 1.5em;
+            letter-spacing: normal;
+            font-family: TNYAdobeCaslonPro, Times New Roman, Times, serif;
+            font-size: 21.1px;
+            font-weight: 400;
+            font-style: normal;
+            text-transform: none;
+            /*text-align: justify;*/
+            padding: 0;
+            text-indent: 3vw;
+        }
+
+        p.body:first-child:first-letter {
+            font-size: 35px;
+            color: #903 !important;
+            initial-letter: 1;
+        }
+
+        .first-letter {
+            font-size: 35px;
+            color: #903 !important;
+            initial-letter: 1;
+        }
+
+        p.start-quote:before {
+            content: open-quote;
+            font-weight: bold;
+            font-size: 30px;
+            color: #262626;
+        }
+
+        p.end-quote:after {
+            content: close-quote;
+            font-weight: bold;
+            font-size: 30px;
+            color: #262626;
+        }
+
+        body {
+            /*background-color: #fffdf7;*/
+        }
+
+        .container {
+            max-width: none !important;
+        }
+
+        .separator {
+            display: block;
+            grid-column: 1/-1;
+            border: 0;
+            border-bottom: 1px solid #e5e5e5;
+            padding-top: 1rem;
+            width: 100%;
+            height: 0;
+            content: '';
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+<div style="height: 30vh;"></div>
+
+<div class="row">
+    <div class="column column-40 column-offset-60">
+        <p class="gray serif italic" style="font-size: 2vw; line-height: normal">Посвящается моей семье, а особенно
+            деду Вове. И моему
+            городу.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column column-90 column-offset-10">
+        <h1 class="serif warm" style="font-size: 7vw">Долгая счастливая жизнь</h1>
+    </div>
+</div>
+
+<div style="height: 40vh"></div>
+
+<div class="row">
+    <div class="column column-offset-10 column-80">
+        <div class="separator"></div>
+    </div>
+</div>
+
+<div style="height: 5vh"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="column column-offset-20 column-60">
+            <p class="body"><span class="first-letter">Н</span>ачать бы я хотел с цитаты из Довлатова. Она лучше всего
+                сможет рассказать, что для старые фото эмоционально. Что я вижу, когда смотрю на них. Вот эта цитата:
+            </p></div>
+    </div>
+    <div style="height: 30px"></div>
+
+    <div class="row">
+        <div class="column column-offset-25 column-50">
+            <p class="body italic start-quote"><span class="first-letter">О</span>днажды Лена поехала на службу. Я
+                задержался
+                дома. Стал, как всегда, разыскивать
+                необходимые
+                бумаги. Если не ошибаюсь, копию издательского договора. Я рылся в шкафах. Выдвигал один за другим ящики
+                письменного стола. Даже в ночную тумбочку заглянул. Там, под грудой книг, журналов, старых писем, я
+                нашел альбом. Это был маленький, почти карманный альбом для фотографий. Листов пятнадцать толстого
+                картона с рельефным изображением голубя на обложке</p>
+            <p class="body italic">Я раскрыл его. Первые фотографии были желтоватые, с трещинами. Некоторые без уголков.
+                На
+                одной - круглолицая малышка гладила собаку. Точнее говоря, осторожно к ней прикасалась. Лохматая собака
+                прижимала уши. На другой - шестилетняя девочка обнимала самодельную куклу. Вид у обеих был печальный и
+                растерянный.</p>
+            <p class="body italic">Целый лист занимала глянцевая школьная карточка. Четыре ряда испуганных, напряженных,
+                замерших физиономий. Ни одного веселого детского лица.</p>
+            <p class="body italic">В центре - группа учителей. Двое из них с орденами, возможно - бывшие фронтовики.
+                Среди
+                других - классная руководительница. Ее легко узнать. Старуха обнимает за плечи двух натянуто улыбающихся
+                школьниц.
+            </p>
+            <p class="body italic">Слева, в третьем ряду - моя жена. Единственная не смотрит в аппарат.</p>
+            <p class="body italic">Я узнавал ее на всех фотографиях. На маленьком снимке, запечатлевшем группу лыжников.
+                На
+                микроскопическом фото, сделанном возле колхозной библиотеки. И даже на передержанной карточке, в толпе,
+                среди едва различимых участников молодежного хора.</p>
+            <p class="body italic">Я узнавал хмурую девочку в стоптанных туфлях. Смущенную барышню в дешевом купальнике
+                под
+                размашистой надписью «Евпатория». Студентку в платке возле колхозной библиотеки. И везде моя жена
+                казалась самой печальной.</p>
+            <p class="body italic">Я перевернул еще несколько страниц. Увидел молодого человека в шестигранной кепке,
+                старушку,
+                заслонившуюся рукой, неизвестную балерину.</p>
+            <p class="body italic end-quote">
+                Потом я увидел семейную фотографию - мать, отец и дочка. Отец был в длинном плаще и соломенной шляпе. Из
+                рукавов едва виднелись кончики пальцев. У жены его была теплая кофта с высокими плечами, локоны, газовый
+                шарфик. Девочка резко повернулась в сторону. Так, что разлетелось ее короткое осеннее пальто. Что-то
+                привлекло ее внимание за кадром. Может, какая-нибудь бродячая собака. Позади, за деревьями, виднелся
+                фасад царскосельского Лицея. Далее промелькнули родственники с напряженными искусственными улыбками.
+                Пожилой усатый железнодорожник в форме, дама около бюста Ленина, юноша на мотоцикле. Затем появился
+                моряк или, вернее, курсант. Даже на фотографии было видно, как тщательно он побрит. Курсанту заглядывала
+                в лицо девица с букетиком ландышей...
+            </p>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-75 column-offset-25">
+            <img src="https://lh3.googleusercontent.com/pw/ACtC-3duFPGPFJLM7MxyqBt1pTClLeIF5X1uJInOHZjC6b_w_ltZ9aaxuyjapBphJXZP8t95uWnVz7zzyxpX8ws8rd_cdhfhIS3c3LWpW57MpgbYW0JLQDk4lTZUrULl4bxl3NKIs3dEeTB5iMN_xu2B81EP5Q=w1992-h1332-no" alt="placeholder 960" class="img-responsive"/>
+
+            <span class="text-caption">Автопортрет на фоне телевизора.</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-75 column-offset-10">
+            <img src="https://lh3.googleusercontent.com/202r0LSsC1f_BELNYQZD7Vsw_UTCzDawxxGHMrBr66ft5l4m0KE82A58svJhl1SUb1SOvBWmHrVZ5R_OeQ6CYxPjNyycXjFmOZiG1yiRFBpeDd6m1JcqeIB1uumNKqOyDSYVB-RkgvduI44Z9BnAwk-pZz5LTS_ejhWiT-PxPzmClRi3XgeeJUs3sr9peU3bHyTP36b6ySwHADNKvVyiHngpKq6gBSU-F6l7R4dlaeMpVB3FcVdD0IiEHhgJ3fxhA5mPyqU1KjJgLH1nqwKcbgyJ5aNs3r8Xt0pmOV3-8LWV3gVAZ_x_L_155vpnZeAoZguLS59i7TFQABi1y108u71vf8UYIeHmRYTI2ydNE5nBwlC5vC8lYBz3NM89V3Gbxm3xnLxefvJ4m-AofBfqYq4Key2R3Jnn-WltM-UYxZYCQApRCBwOjM7_hN1ycfoRVW1d_bIPxbE2xaomhwqzsLObPNpsWyD2a8STm3-BV3gJxrqt0mKKMG1mKX42EqTBuWnPkZahwO9tTzvQu80Pop0ih9ShJpa6dOD1V7-rmNgAnIci43eSgjtp2e9wirsTd2akyJpPE57fe5Xj3uFDXuxS7YdoksKwxjHPtwxVIEOqdrgzQClufoUGZ6BqaGoYpMMicTDZXNpap2vmA_s3yUSZWLePG04NkReGOjcPsFzVZZBrp47UIGx1UZO4EA=w1992-h1332-no?authuser=1" alt="placeholder 960"/>
+
+            <span class="text-caption">Мама пьет квас в крыму.</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-75 column-offset-25">
+            <img src="photos/s04155-000005.JPG" alt="placeholder 960"/>
+
+            <span class="text-caption">Во дворе нашего дома на Купаловской</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-75 column-offset-10">
+            <img src="photos/s04155-000034.JPG" alt="placeholder 960"/>
+
+            <span class="text-caption">Во дворе нашего дома на Купаловской</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-75 column-offset-25">
+            <img src="photos/s04151-000061.JPG" alt="placeholder 960"/>
+
+            <span class="text-caption">Мой дед и мама где-то в Крыму</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-75 column-offset-10">
+            <img src="photos/s04156-000028.JPG" alt="placeholder 960"/>
+
+            <span class="text-caption">Вид на Октябрьскую площадь из нашего окна.</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-75 column-offset-25">
+            <img src="photos/s04064-000092.JPG" alt="placeholder 960"/>
+
+            <span class="text-caption">Мама и тётя Ира, её школьная подруга. Октябрьская площадь в сторону Александровского сквера и дома офицеров.</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-offset-20 column-60">
+            <p class="body italic" style="text-align: center">***</p>
+            <p class="body"><span class="first-letter">О</span>днажды Лена поехала на службу. Я
+                задержался
+                дома. Стал, как всегда, разыскивать
+                необходимые
+                бумаги. Если не ошибаюсь, копию издательского договора. Я рылся в шкафах. Выдвигал один за другим ящики
+                письменного стола. Даже в ночную тумбочку заглянул. Там, под грудой книг, журналов, старых писем, я
+                нашел альбом. Это был маленький, почти карманный альбом для фотографий. Листов пятнадцать толстого
+                картона с рельефным изображением голубя на обложке</p>
+            <p class="body italic" style="text-align: center">***</p>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-40 column-offset-10">
+            <img src="photos/s04151-000044.JPG" alt="placeholder 960"/>
+
+            <span class="text-caption">Мама пьет квас в крыму.</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+        <div class="column column-40 column-offset-10">
+            <img src="photos/s03983-000068.JPG" alt="placeholder 960"/>
+
+            <span class="text-caption">Мама пьет квас в крыму.</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+    <div class="row">
+        <div class="column column-75 column-offset-25">
+            <img src="photos/s03983-000068.JPG" alt="placeholder 960"/>
+
+            <span class="text-caption">Портрет деда напротив окна.</span>
+            <span class="caption_credit">60-е</span>
+        </div>
+    </div>
+
+    <div style="height: 20vh"></div>
+
+
+</div>
+
+
+</body>
+</html>
